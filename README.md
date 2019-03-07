@@ -39,8 +39,6 @@ Currently supported commands are:
 ### Hardware
 We are working with the ESP32 WEMOS to connect to out DS28E38 chip.
 
-
-
 ## Changelog
 #### V 1.0.0
 Initial Release
@@ -52,4 +50,4 @@ Mohammad Altahan(mohammad.tahan1992@gmail.com), Arnaud Durand(arnaud.durand@unif
 ## License
 
 this website is licensed under The MIT License (MIT). Which means that you can use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the final products. 
-But you always need to state that Mohammad Altahan is the original author of this website.
+But you always need to state that Mohammad Altahan, Arnaud Durand are the original authors of this library.
