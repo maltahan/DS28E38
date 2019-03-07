@@ -19,10 +19,11 @@ enables the DS28E38 to deliver cost-effective protection against invasive physic
 ![how do you connect to DS28E38](https://github.com/maltahan/DS28E38/raw/master/screenshot1.jpg)
 
 ### Basic
-import ds28e38
+```import ds28e38
 import onewire
 import _onewire as _ow
 ds = ds28e38.DS28E38(onewire)
+```
 
 ### External dependencies
 all the dependencies are exists by default in micropython.
