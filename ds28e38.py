@@ -57,7 +57,13 @@ class DS28E38:
         self.ow.readinto(rx_read_protection_values)
         self.crc16 = bytearray(2)
         self.ow.readinto(self.crc16)
-        self.roms = self.ow.scan()
+        try:
+            self.roms = self.ow.scan()
+        except Exception as exp:
+            if(exp and self.counter < 3):
+              read_man_rom_Id()
+            else:
+              raise Exception(exp)
         device_data = {}
         self.ow.select_rom(self.roms[0])
         data = {}
