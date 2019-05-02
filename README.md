@@ -16,7 +16,7 @@ enables the DS28E38 to deliver cost-effective protection against invasive physic
 ![relationships between the circuit elements of the DS28E38](https://github.com/maltahan/DS28E38/raw/master/screenshot.jpg)
 
 ### How do you connect to DS28E38
-![how do you connect to DS28E38](https://github.com/maltahan/DS28E38/raw/master/screenshot1.jpg)
+![how do you connect to DS28E38](https://github.com/maltahan/DS28E38/raw/master/screenshot2.jpg)
 
 ### Basic
 ```import ds28e38
